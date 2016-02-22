@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     IALocationListener mLocationListener = new IALocationListener() {
         @Override
         public void onLocationChanged(IALocation iaLocation) {
-            //Location updates will be received here
+            //Location updates will be received here  
             TextView txtLoc = (TextView) findViewById(R.id.txtLocation);
             txtLoc.setText(iaLocation.getLatitude() + ", " + iaLocation.getLongitude());
         }
