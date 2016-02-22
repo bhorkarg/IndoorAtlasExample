@@ -7,7 +7,7 @@ View the video tutorial on [YouTube](https://www.youtube.com/watch?v=2EXkV4xL5rg
 
 # Basic Usage
 
-## 1. Get API key
+## 1. Get the API key
 
 Register at the [IndoorAtlas website](http://developer.indooratlas.com/signup). Create a new Application and you will get an API key and an API secret.
 
@@ -112,3 +112,9 @@ Cleanup when your app is destroyed
 ```
 
 ## and done..
+
+## Troubleshooting
+
+Sometimes, you won't get location updates. In such case, check the internet connection since IndoorAtlas needs a continuous internet connection.
+
+Also, you might need to first map your location by creating a venue using the IndoorAtlas MapCreator app.
